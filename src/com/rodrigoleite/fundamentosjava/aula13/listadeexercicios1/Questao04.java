@@ -17,8 +17,9 @@ public class Questao04 {
         double nota3 = scan.nextDouble();
         System.out.println("Insira a quarta nota: ");
         double nota4 = scan.nextDouble();
+        scan.close();
 
         System.out.println("A média do aluno é " + ((nota1 + nota2 + nota3 + nota4 ) / 4));
-        scan.close();
+        
     }
 }

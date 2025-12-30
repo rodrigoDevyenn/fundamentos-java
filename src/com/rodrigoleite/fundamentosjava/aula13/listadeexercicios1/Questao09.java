@@ -11,6 +11,7 @@ public class Questao09 {
 
         System.out.println("Insira a temperatura em F°: ");
         double grausF = scan.nextDouble();
+        scan.close();
         
         double grausC = (5 * (grausF - 32))/9;
 

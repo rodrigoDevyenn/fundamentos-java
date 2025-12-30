@@ -12,6 +12,7 @@ public class Questao05 {
 
         System.out.println("Entrada em métros: ");
         double metros = scan.nextDouble();
+        scan.close();
         double cm = metros * 100;
 
         System.out.println(metros + " metros é equivalente a " + cm + " centimétros.");

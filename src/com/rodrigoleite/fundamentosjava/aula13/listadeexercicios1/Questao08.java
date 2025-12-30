@@ -14,6 +14,7 @@ public class Questao08 {
         double valorPorHora = scan.nextDouble();
         System.out.println("Insira a quantidade de horas mensais: ");
         int qtdHorasMensais = scan.nextInt();
+        scan.close();
 
         double salario = (valorPorHora * qtdHorasMensais);
 

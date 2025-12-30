@@ -12,6 +12,7 @@ public class Questao06 {
 
         System.out.println("Entrada do raio: ");
         double raio = scan.nextDouble();
+        scan.close();
         double areaCirculo = 2 * Math.PI * (Math.pow(raio, 2));
 
         System.out.println("A área do círculo é " + areaCirculo);

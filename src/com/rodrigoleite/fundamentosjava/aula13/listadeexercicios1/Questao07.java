@@ -11,6 +11,7 @@ public class Questao07 {
 
         System.out.println("Insira os lados do quadrado: ");
         double lado  = scan.nextDouble();
+        scan.close();
         double areaQuadrado = Math.pow(lado, 2);
         
         System.out.println("O dobro da area do quadrado é " + (areaQuadrado * 2));

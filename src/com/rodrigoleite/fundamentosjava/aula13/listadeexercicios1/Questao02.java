@@ -8,8 +8,9 @@ public class Questao02 {
         Scanner scan = new Scanner(System.in);
         System.out.println("Insira um número: ");
         int numero = scan.nextInt();
+        scan.close();
 
         System.out.println("O número informado foi " + numero);
-        scan.close();
+        
     }
 }
