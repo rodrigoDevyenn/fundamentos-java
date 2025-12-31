@@ -1,0 +1,20 @@
+package com.rodrigoleite.fundamentosjava.labs.listaexercicio01;
+
+import java.util.Scanner;
+
+public class Questao03 {
+
+    public static void main(String[] args){
+
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.println("Insira um número x: ");
+        int numerox = scan.nextInt();
+        System.out.println("Insira um número y: ");
+        int numeroy = scan.nextInt();
+        scan.close();
+
+        System.out.println("A soma entre x e y é " + (numerox + numeroy));
+        
+    }
+}
