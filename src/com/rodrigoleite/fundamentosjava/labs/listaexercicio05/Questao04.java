@@ -9,9 +9,12 @@ public class Questao04 {
         Scanner scan = new Scanner(System.in);
         String[][] agenda = new String[31][24];
         int opcao;
+        //Validações
         boolean opcaoValida = false;
         boolean agendaAberta = true;
-        //opcao 1
+        boolean diaValido = false;
+        boolean horaValida = false;
+        //opcao 1 e 2
         int dia = 0;
         int hora = 0;
         String compromisso = "";
@@ -24,54 +27,75 @@ public class Questao04 {
                 System.out.println("Escolha um opção: ");
                 opcao = scan.nextInt();
                 if (opcao == 1){
-                    opcaoValida = true;
-                } else if (opcao == 2){
-                    opcaoValida = true;
-                } else if (opcao == 0){
-                    opcaoValida = true;
-                } else {
-                    System.out.println("Opção Inválida! tente novamente.");
-                } 
-            } while(opcaoValida == false);
 
-            switch (opcao) {
-                case 1:
+                    opcaoValida = true;
+                    do{
+                        diaValido = false;
+                        System.out.println("Entre com o dia:");
+                        dia = scan.nextInt();
+                        if (dia > 0 && dia <= 31){
+                            diaValido = true;
+                        } else { 
+                            System.out.println("Dia inválido! Tente novamente.");
+                        }
+                    } while (diaValido == false);
+                    do{
+                        horaValida = false;
+                        System.out.println("Entre com a hora:");
+                        hora = scan.nextInt();
+                        if (hora > 0 && hora <= 24){
+                            horaValida = true;
+                        } else {
+                            System.out.println("Hora inválida! Tente novamente.");
+                        }
+                    } while (horaValida == false);
 
-                    System.out.println("Entre com o dia:");
-                    dia = scan.nextInt();
-                    System.out.println("Entre com a hora:");
-                    hora = scan.nextInt();
                     scan.nextLine();
                     System.out.println("O Que gostaria de agendar?");
                     compromisso = "\nCompromisso Marcado: " + scan.nextLine() + "\n";
+                    
+                    dia--;
+                    agenda[dia][hora] = compromisso;
+                    
+                } else if (opcao == 2){
 
-                    for(int i = 0; i < agenda.length; i++){
-                        for (int j = 0; j < agenda[i].length; j++){
-                            if (i == (dia - 1) && j == hora){
-                                agenda[i][j] = compromisso;
-                            }
+                    opcaoValida = true;
+                    do{
+                        diaValido = false;
+                        System.out.println("Entre com o dia:");
+                        dia = scan.nextInt();
+                        if (dia > 0 && dia <= 31){
+                            diaValido = true;
+                        } else { 
+                            System.out.println("Dia inválido! Tente novamente.");
                         }
-                    }
-                    break;
-                case 2:
-
-                    System.out.println("Entre com o dia:");
-                    dia = scan.nextInt();
-                    System.out.println("Entre com a hora:");
-                    hora = scan.nextInt();
-
-                    for (int i = 0; i < agenda.length; i++){
-                        for (int j = 0; j < agenda[i].length; j++){
-                            if (i == (dia - 1) && j == hora){
-                                System.out.println(agenda[i][j]);
-                            }
+                    } while (diaValido == false);
+                    do{
+                        horaValida = false;
+                        System.out.println("Entre com a hora:");
+                        hora = scan.nextInt();
+                        if (hora > 0 && hora <= 24){
+                            horaValida = true;
+                        } else {
+                            System.out.println("Hora inválida! Tente novamente.");
                         }
-                    }
-                    break;
-                case 0:
+                    } while (horaValida == false);
 
-                    agendaAberta = false;     
-            }
+                    dia--;
+                    System.out.println(agenda[dia][hora]);
+                    
+
+                } else if (opcao == 0){
+
+                    opcaoValida = true;
+                    agendaAberta = false;
+
+                } else {
+
+                    System.out.println("Opção Inválida! tente novamente.");
+
+                } 
+            } while(opcaoValida == false);
         }
         scan.close();
     }
