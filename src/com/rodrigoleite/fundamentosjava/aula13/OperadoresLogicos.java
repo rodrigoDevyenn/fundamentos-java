@@ -18,26 +18,26 @@ public class OperadoresLogicos {
         boolean f = false;
 
         System.out.println("\nTabela Verdade AND:");
-        System.out.println((f && f));//     0 0      false 
-        System.out.println((f && v));//     0 1      false
-        System.out.println((v && f));//     1 0      false
-        System.out.println((v && v));//     1 1      true
+        //  System.out.println((f && f));//     0 0      false 
+        //  System.out.println((f && v));//     0 1      false
+        //  System.out.println((v && f));//     1 0      false
+        //  System.out.println((v && v));//     1 1      true
 
         System.out.println("\nTabela Verdade OR:");
-        System.out.println(f || f);//      0 0      false
-        System.out.println(f || v);//      0 1      true
-        System.out.println(v || f);//      1 0      true
-        System.out.println(v || v);//      1 1      true
+        //  System.out.println(f || f);//      0 0      false
+        //  System.out.println(f || v);//      0 1      true
+        //  System.out.println(v || f);//      1 0      true
+        //  System.out.println(v || v);//      1 1      true
 
         System.out.println("\nTabela Verdade XOR:");
-        System.out.println(f ^ f);//       0 0      false  
-        System.out.println(f ^ v);//       0 1      true
-        System.out.println(v ^ f);//       1 0      true
-        System.out.println(v ^ v);//       1 1      false
+        //  System.out.println(f ^ f);//       0 0      false  
+        //  System.out.println(f ^ v);//       0 1      true
+        //  System.out.println(v ^ f);//       1 0      true
+        //  System.out.println(v ^ v);//       1 1      false
 
         System.out.println("\nTabela Verdade NOT:");
-        System.out.println(!(v));//       -(1)  0   false     
-        System.out.println(!(f));//       -(0)  1   true
+        //  System.out.println(!(v));//       -(1)  0   false     
+        //  System.out.println(!(f));//       -(0)  1   true
 
     }
 }

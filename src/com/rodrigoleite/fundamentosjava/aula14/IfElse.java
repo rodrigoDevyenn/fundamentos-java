@@ -33,6 +33,7 @@ public class IfElse {
         } else { // valor >= 17
             System.out.println("Sai fora! Muito caro!");
         }
+        scan.close();
 
     }
 }

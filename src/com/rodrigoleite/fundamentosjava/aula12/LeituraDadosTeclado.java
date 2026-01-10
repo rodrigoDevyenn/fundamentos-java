@@ -25,5 +25,7 @@ public class LeituraDadosTeclado {
         System.out.println("Você digitou os seguintes valores:");
         System.out.println("Nome Completo: " + nome + "\nPrimeiro Nome: " + primeiroNome + "\nIdade: " + idade + "\nAltura: " + altura + "\nTem filhos? " + temFilhos);
 
+        scan.close();
+
     }
 }

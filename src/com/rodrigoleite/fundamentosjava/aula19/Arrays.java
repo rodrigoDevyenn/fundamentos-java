@@ -6,11 +6,11 @@ public class Arrays {
         
         //Digamos que você queira armazenar as temperatura médias de cada dia do ano.
         //Armazenar isso em variáveis simples daria muito trabalho.
-        double tempDia001 = 32.2;
-        double tempDia002 = 24;
-        double tempDia003 = 23.7;
-        double tempDia004 = 33.7;
-        double tempDia005 = 22.4;
+        //  double tempDia001 = 32.2;
+        //  double tempDia002 = 24;
+        //  double tempDia003 = 23.7;
+        //  double tempDia004 = 33.7;
+        //  double tempDia005 = 22.4;
 
         //Usando Arrays 
         double[] temperaturas = new double[365];

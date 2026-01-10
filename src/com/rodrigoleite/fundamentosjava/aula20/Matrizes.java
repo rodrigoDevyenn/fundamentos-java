@@ -49,7 +49,7 @@ public class Matrizes {
 
         //Como inicializar arrays e matrizes já com seus elementos:
 
-        double[] notasAluno1 = {9, 10, 8, 6}; // array preechido
+        //  double[] notasAluno1 = {9, 10, 8, 6}; // array preechido
         double[][] notasAlunos2 = {{9, 10, 8, 6}, {10, 6, 5, 7}, {10, 10, 9.5, 10}}; //array preenchido com varios arrays preenchidos;
 
         

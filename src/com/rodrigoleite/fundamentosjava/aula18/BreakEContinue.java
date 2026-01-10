@@ -32,6 +32,7 @@ public class BreakEContinue {
             }
             System.out.println("O valor de i é " + i + ".");
         }
+        scan.close();
 
     }
     
