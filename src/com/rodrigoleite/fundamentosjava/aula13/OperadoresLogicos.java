@@ -14,8 +14,8 @@ public class OperadoresLogicos {
         System.out.println("Valor1 é 1 OR Valor2 é 2 - Resultado: " + resultado2);
 
         //Tabela Verdade
-        boolean v = true;
-        boolean f = false;
+        //  boolean v = true;
+        //  boolean f = false;
 
         System.out.println("\nTabela Verdade AND:");
         //  System.out.println((f && f));//     0 0      false 
