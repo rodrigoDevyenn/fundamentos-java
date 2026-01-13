@@ -12,11 +12,9 @@ public class Lampada {
 
     void ligar(){
         ligado = true;
-        System.out.println("Lâmpada Ligada!");
     }
 
     void desligar(){
         ligado = false;
-        System.out.println("Lâmpada Desligada!");
     }
 }
