@@ -26,5 +26,13 @@ public class Lampada {
         }
     }
 
-    
+    void mudarEstado(){
+        if (ligado){
+            desligar();
+        } else {
+            ligar();
+        }
+    }
+
+
 }

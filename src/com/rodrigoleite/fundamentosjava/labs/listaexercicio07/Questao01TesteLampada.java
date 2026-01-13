@@ -18,5 +18,8 @@ public class Questao01TesteLampada {
 
         lampada.desligar();
         lampada.mostrarEstado();
+
+        lampada.mudarEstado();
+        lampada.mostrarEstado();
     }
 }
