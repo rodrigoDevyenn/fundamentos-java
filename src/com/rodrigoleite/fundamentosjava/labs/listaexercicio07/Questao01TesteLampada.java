@@ -14,9 +14,9 @@ public class Questao01TesteLampada {
         lampada.ligado = false;
 
         lampada.ligar();
-        System.out.println("A lâmpada está ligada: " + lampada.ligado);
+        lampada.mostrarEstado();
 
         lampada.desligar();
-        System.out.println("A lâmpada está ligada: " + lampada.ligado);
+        lampada.mostrarEstado();
     }
 }
