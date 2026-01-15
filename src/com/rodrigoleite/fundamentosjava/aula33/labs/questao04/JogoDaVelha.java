@@ -15,15 +15,15 @@ public class JogoDaVelha {
         tabuleiro = new char[3][3];
     }
 
-    public JogoDaVelha(char sinal, String jogadorX, String jogadorO, int jogada, boolean vitoria, boolean fimDeJogo, String vencedor) {
+    public JogoDaVelha(char sinal, String jogadorX, String jogadorO) {
         this.tabuleiro = new char[3][3];
         this.sinal = sinal;
         this.jogadorX = jogadorX;
         this.jogadorO = jogadorO;
-        this.jogada = jogada;
-        this.vitoria = vitoria;
-        this.fimDeJogo = fimDeJogo;
-        this.vencedor = vencedor;
+        this.jogada = 0;
+        this.vitoria = false;
+        this.fimDeJogo = false;
+        this.vencedor = "";
     }
 
     public int jogar(int linha, int coluna){
