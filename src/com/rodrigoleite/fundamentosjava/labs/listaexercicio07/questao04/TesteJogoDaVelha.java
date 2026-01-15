@@ -85,12 +85,7 @@ public class TesteJogoDaVelha {
                         }
                     } while (true);
 
-                    for (int i = 0; i < jogo.tabuleiro.length; i++){
-                        for (int j = 0; j < jogo.tabuleiro[i].length; j++){
-                            System.out.print(jogo.tabuleiro[i][j] + " | ");
-                        }
-                        System.out.println();
-                    }
+                    jogo.mostrarTabuleiro();
 
                     if (jogo.vitoria){
                         System.out.println("\nO Jogador " + jogo.vencedor + " venceu, PARABÊNS!\n");
