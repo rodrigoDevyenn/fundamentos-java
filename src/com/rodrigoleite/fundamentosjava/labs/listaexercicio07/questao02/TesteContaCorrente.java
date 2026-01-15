@@ -1,6 +1,6 @@
-package com.rodrigoleite.fundamentosjava.labs.listaexercicio07.contacorrente;
+package com.rodrigoleite.fundamentosjava.labs.listaexercicio07.questao02;
 
-public class Questao02TesteContaCorrente {
+public class TesteContaCorrente {
 
     public static void main(String[] args){
 

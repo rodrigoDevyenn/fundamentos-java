@@ -1,8 +1,8 @@
-package com.rodrigoleite.fundamentosjava.labs.listaexercicio07.aluno;
+package com.rodrigoleite.fundamentosjava.labs.listaexercicio07.questao03;
 
 import java.util.Scanner;
 
-public class Questao03TesteAluno {
+public class TesteAluno {
 
     public static void main(String[] args) {
         

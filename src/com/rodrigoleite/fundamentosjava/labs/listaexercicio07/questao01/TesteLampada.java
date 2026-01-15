@@ -1,6 +1,6 @@
-package com.rodrigoleite.fundamentosjava.labs.listaexercicio07.lampada;
+package com.rodrigoleite.fundamentosjava.labs.listaexercicio07.questao01;
 
-public class Questao01TesteLampada {
+public class TesteLampada {
 
     public static void main(String[] args){
 

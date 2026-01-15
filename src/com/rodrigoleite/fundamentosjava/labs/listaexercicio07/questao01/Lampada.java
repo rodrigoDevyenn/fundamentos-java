@@ -1,4 +1,4 @@
-package com.rodrigoleite.fundamentosjava.labs.listaexercicio07.lampada;
+package com.rodrigoleite.fundamentosjava.labs.listaexercicio07.questao01;
 
 public class Lampada {
 

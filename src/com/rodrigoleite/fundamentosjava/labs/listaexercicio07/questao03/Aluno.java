@@ -1,4 +1,4 @@
-package com.rodrigoleite.fundamentosjava.labs.listaexercicio07.aluno;
+package com.rodrigoleite.fundamentosjava.labs.listaexercicio07.questao03;
 
 public class Aluno {
 

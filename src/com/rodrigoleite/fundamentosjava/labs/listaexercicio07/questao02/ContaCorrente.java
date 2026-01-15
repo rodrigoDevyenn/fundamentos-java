@@ -1,4 +1,4 @@
-package com.rodrigoleite.fundamentosjava.labs.listaexercicio07.contacorrente;
+package com.rodrigoleite.fundamentosjava.labs.listaexercicio07.questao02;
 
 public class ContaCorrente {
 
