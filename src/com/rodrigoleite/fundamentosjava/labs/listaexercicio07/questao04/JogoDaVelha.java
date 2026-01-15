@@ -71,13 +71,13 @@ public class JogoDaVelha {
             (tabuleiro[0][2] == 'O' && tabuleiro[1][1] == 'O' && tabuleiro[2][0] == 'O')) {
                 vitoria = true;
                 vencedor = jogadorO;
-        } else if (jogada >= 9){
+        } else if (jogada > 9){
                     fimDeJogo = true;
                 }
     }
 
     void reiniciarJogo(){
-        jogada = 0;
+        jogada = 1;
         vitoria = false;
         fimDeJogo = false;
         sinal = ' ';
