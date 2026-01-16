@@ -30,9 +30,9 @@ public class Calculadora {
         if (n == 0){
             return 1;
         }
-        
+
         int fatorial = 1;
-        for (int i = n; i > 0; i--){
+        for (int i = n; i > 1; i--){
             fatorial *= i;
         }
         return fatorial;
