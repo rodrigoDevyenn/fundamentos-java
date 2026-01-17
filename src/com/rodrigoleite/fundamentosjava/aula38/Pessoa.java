@@ -7,8 +7,10 @@ public class Pessoa {
     private String telefone;
     private String cpf;
 
+    protected String nomeVisibilidade;
+
     public Pessoa(){
-        super(); // Assim como o this é uma forma de referênciar a classe mãe.
+        super(); 
     }
 
     public Pessoa(String nome, String endereco, String telefone, String cpf) {

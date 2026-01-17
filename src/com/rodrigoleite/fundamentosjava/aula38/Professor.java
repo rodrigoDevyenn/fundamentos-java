@@ -5,7 +5,12 @@ public class Professor extends Pessoa{
     private double salario;
     private String nomeCurso;
 
-    
+    public void verificarAcessibilidade(){
+
+        this.nomeVisibilidade = "Maria";
+        super.nomeVisibilidade = "João";
+        
+    }
 
     public double getSalario() {
         return salario;

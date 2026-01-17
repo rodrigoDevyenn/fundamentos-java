@@ -14,6 +14,12 @@ public class Aluno extends Pessoa{
         this.curso = curso;
     }
 
+    public void verificarAcessibilidade(){
+        // o modificador de acesso protected, permite acesso as subclasses
+        this.nomeVisibilidade = "Maria"; // Tem acesso;
+        super.nomeVisibilidade = "João"; // Tem acesso;
+    }
+
     public String getCurso() {
         return curso;
     }
